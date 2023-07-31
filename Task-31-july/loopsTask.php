@@ -46,6 +46,24 @@ for ($i=1 ; $i<10 ; $i++){
     echo  $Fibonacci. " , ";
 
 }
+echo "<br>";
+echo "<br>";
+
+
+// function fibonacciLoop($n) {
+//     $fib = array(0, 1);
+
+//     for ($i = 2; $i < $n; $i++) {
+//         $fib[$i] = $fib[$i - 1] + $fib[$i - 2];
+//     }
+
+//     return $fib;
+// }
+
+// $length = 10; // The number of Fibonacci numbers to generate
+// $fibonacciSequence = fibonacciLoop($length);
+// echo implode(', ', $fibonacciSequence);
+
 
 echo "<br>";
 echo "<br>";
